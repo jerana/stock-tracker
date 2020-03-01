@@ -18,3 +18,7 @@
 <div id= "results" >
 
 </div>
+<% if !@tracked_stocks.blank? %>
+<%= render 'stocks/list' %>
+<% end %>
+
